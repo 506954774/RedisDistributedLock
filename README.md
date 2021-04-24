@@ -1,6 +1,5 @@
 # RedisDistributedLock
-Redis Distributed Lock
-##手写基于redis的分布式锁组件,使用AOP实现
+##手写基于redis的分布式锁组件,使用AOP实现</br>
 自己手撸的基于redis的分布式锁,已提交至maven中央仓库.使用简单.
 
 #一,使用:
