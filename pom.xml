@@ -35,11 +35,11 @@
     <distributionManagement>
         <repository>
             <id>redis_lock</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
         </repository>
         <snapshotRepository>
             <id>redis_lock</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -168,11 +168,13 @@
             <distributionManagement>
                 <snapshotRepository>
                     <id>redis_lock</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+                   <!-- <url>https://s01.oss.sonatype.org</url>-->
+                    <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
                 </snapshotRepository>
                 <repository>
                     <id>redis_lock</id>
-                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                   <!-- <url>https://s01.oss.sonatype.org</url>-->
+                   <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
                 </repository>
             </distributionManagement>
             <build>
