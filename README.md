@@ -1,9 +1,9 @@
 # RedisDistributedLock
 Redis Distributed Lock
-手写基于redis的分布式锁组件,使用AOP实现
+##手写基于redis的分布式锁组件,使用AOP实现
 自己手撸的基于redis的分布式锁,已提交至maven中央仓库.使用简单.
 
-一,使用:
+#一,使用:
 1,引入依赖:
 
 pom.xml:
@@ -24,7 +24,7 @@ spring.redis.lettuce.pool.max-wait=300ms
 spring.redis.lettuce.pool.max-idle=16
 spring.redis.lettuce.pool.min-idle=8
 3,Application.java:
-
+```Java
 @SpringBootApplication
 @EnableRedisDistributedLock //使用该注解,开启分布式锁
 public class Application {
@@ -34,9 +34,10 @@ public class Application {
     }
 
 }
+```
 
 4,Controller.java:
-
+```Java
 @Slf4j
 @RestController
 @RequestMapping("/redis_distributed_lock")
@@ -66,5 +67,6 @@ public class OrderController  {
     }
 
 }
+```
 
 
