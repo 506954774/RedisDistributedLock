@@ -7,6 +7,7 @@
     <version>1.0.0</version>
     <name>redis-lock</name>
     <description>redis-distributed-lock</description>
+    <url>https://github.com/506954774/RedisDistributedLock</url>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
