@@ -15,7 +15,7 @@ pom.xml:
             <version>1.0.0</version>
         </dependency>
 2,application.properties:
-
+```Java
 spring.redis.host=127.0.0.1
 spring.redis.port=6379
 spring.redis.database=0
@@ -23,6 +23,8 @@ spring.redis.lettuce.pool.max-active=32
 spring.redis.lettuce.pool.max-wait=300ms
 spring.redis.lettuce.pool.max-idle=16
 spring.redis.lettuce.pool.min-idle=8
+```
+
 3,Application.java:
 ```Java
 @SpringBootApplication
